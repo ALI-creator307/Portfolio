@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Portfolio</div>
+      <ul class="nav-links">
+        <li><a class="home" href="#home">Home</a></li>
+        <li><a class="about" href="#about">About</a></li>
+        <li><a class="contact" href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="mainContent">
+        <h1>Hey, I'm <span>Asad Ali</span></h1>
+        <h2>I'm a</h2>
+        <p class="type-effect"></p>
+        <a href="#projects" class="project-btn">View Projects</a>
+      </div>
+      <div class="hero-img">
+        <img src="character3.jpg" alt="Developer Image" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Hello! I'm Asad Ali, a passionate developer with expertise in Java and Web Development. I love creating innovative solutions and bringing ideas to life through code.</p>
+            <p>With a strong foundation in both frontend and backend technologies, I enjoy building full-stack applications that provide exceptional user experiences.</p>
+            <div class="skills">
+              <h3>My Skills</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Node.js</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="character2.jpg" alt="About Me" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's work together!</h3>
+            <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out if you'd like to collaborate or just want to say hello.</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <span>asad.ali@email.com</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">📱</span>
+                <span>+1 (555) 123-4567</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">📍</span>
+                <span>New York, NY</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
